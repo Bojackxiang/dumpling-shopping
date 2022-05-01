@@ -6,7 +6,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "eslint pages components context util --ext .ts,.tsx"
+        "lint": "npx prettier --write ."
     },
     "author": "Sivadass zjusticy",
     "license": "MIT",

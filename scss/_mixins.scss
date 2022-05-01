@@ -11,12 +11,12 @@
     font-size: inherit;
     cursor: pointer;
     &:hover {
-      background: lighten($primary-green, 10%);
+        background: lighten($primary-green, 10%);
     }
     &:focus {
-      outline: none;
+        outline: none;
     }
     &:active {
-      background: lighten($primary-green, 15%);
+        background: lighten($primary-green, 15%);
     }
-  }
+}

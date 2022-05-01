@@ -1,6 +1,6 @@
 ## Next Shopping Cart
 
-Simple  shopping cart using Nextjs, Hook and Typescript.
+Simple shopping cart using Nextjs, Hook and Typescript.
 
 Based on this project [react-shopping-cart](https://github.com/sivadass/react-shopping-cart).
 
@@ -25,7 +25,6 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 
 ## Learn More
 

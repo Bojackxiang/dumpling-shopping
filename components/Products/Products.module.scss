@@ -1,25 +1,25 @@
 .productsWrapper {
-  // padding-top: 98px;
-  animation: slideUp 300ms linear;
-  animation-delay: 150ms;
-  // @media (max-width: 991px) {
-  //   padding-top: 68px;
-  // }
-  // @media (max-width: 480px) {
-  //   padding-top: 52px;
-  // }
+    // padding-top: 98px;
+    animation: slideUp 300ms linear;
+    animation-delay: 150ms;
+    // @media (max-width: 991px) {
+    //   padding-top: 68px;
+    // }
+    // @media (max-width: 480px) {
+    //   padding-top: 52px;
+    // }
 }
 .products {
-  display: flex;
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  padding: 16px;
-  max-width: 960px;
-  margin: 0 auto;
-  @media (max-width: 768px) {
-    padding: 8px;
-  }
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 16px;
+    max-width: 960px;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+        padding: 8px;
+    }
 }
 
 // Loading

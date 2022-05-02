@@ -3,15 +3,18 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "next dev",
+        "dev:local": "env-cmd -e local next dev",
+        "dev:staging": "env-cmd -e staging next dev",
+        "dev:production": "env-cmd -e production next dev",
         "build": "next build",
-        "start": "next start",
+        "start": "npm run dev:local",
         "lint": "npx prettier --write ."
     },
     "author": "Sivadass zjusticy",
     "license": "MIT",
     "dependencies": {
         "axios": "^0.27.2",
+        "env-cmd": "^10.1.0",
         "next": "^10.0.4",
         "node-sass": "^4.14.1",
         "react": "16.13.1",

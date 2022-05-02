@@ -1,14 +1,18 @@
 import React from 'react'
 import styles from './NewHeader.module.scss';
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 const NewHeader = () => {
     return (
         <header className={styles.header}>
             <div className={styles.container}>
                 <div className={styles.brand}>
-                    <Image src={'/images/Veggy.png'} height="36" width={123} />
+                    <Link href="/" replace={true}>
+                        <a>
+                            <img src='images/Veggy.png' alt="logo" className={styles.logo} />
+                        </a>
+                    </Link>
                 </div>
             </div>
         </header>
